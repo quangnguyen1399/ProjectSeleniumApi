@@ -4,20 +4,23 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class Topic_05_Browser {
+public class Topic_02_webBrowser {
 	WebDriver driver;
 
 	@BeforeClass
 	public void beforeClass() {
-		driver = new FirefoxDriver();
+		System.setProperty("webdriver.chrome.driver", "D:\\Automation Test Project\\01-Software\\Eclipse-java\\workspace\\seleniumApi_TestNG\\browserDriver\\chromedriver.exe");
 		
+		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		driver.manage().window().maximize();
 		
 	}
 	@Test

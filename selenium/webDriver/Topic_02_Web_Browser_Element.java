@@ -55,11 +55,14 @@ public class Topic_02_Web_Browser_Element {
 		//Tìm nhiều  element
 		driver.findElements(By.xpath(appUrl)); //*******
 		
-		//Thời gian chờ cho vieeck tìm kiếm element
+		//Thời gian chờ cho vieeck tìm kiếm element (WebdriverWait)
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		
-		// Thời gian chờ cho đoạn code JS đc thực thi xong
+		// Thời gian chờ cho page được tải xong (WebdriverWait)
 		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+
+		// Thời gian chờ cho đoạn code JS đc thực thi xong (Javascript Exectutor)
+		driver.manage().timeouts().setScriptTimeout(30, TimeUnit.SECONDS);
 		
 		// Full hết window 
 		driver.manage().window().maximize(); //*******

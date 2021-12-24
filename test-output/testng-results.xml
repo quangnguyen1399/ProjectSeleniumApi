@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-23T15:19:26Z" name="Default suite" finished-at="2021-12-23T15:19:44Z" duration-ms="17766">
+    <groups>
+    </groups>
+    <test started-at="2021-12-23T15:19:26Z" name="Default test" finished-at="2021-12-23T15:19:44Z" duration-ms="17766">
+      <class name="webDriver.Topic_05_Browser">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:webDriver.Topic_05_Browser@7c6908d7]" started-at="2021-12-23T15:19:26Z" name="beforeClass" finished-at="2021-12-23T15:19:31Z" duration-ms="4586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="TC_01_Url()[pri:0, instance:webDriver.Topic_05_Browser@7c6908d7]" started-at="2021-12-23T15:19:31Z" name="TC_01_Url" finished-at="2021-12-23T15:19:36Z" duration-ms="4684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_Url -->
+        <test-method signature="TC_02_Title()[pri:0, instance:webDriver.Topic_05_Browser@7c6908d7]" started-at="2021-12-23T15:19:36Z" name="TC_02_Title" finished-at="2021-12-23T15:19:38Z" duration-ms="2002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02_Title -->
+        <test-method signature="TC_03_Navigate()[pri:0, instance:webDriver.Topic_05_Browser@7c6908d7]" started-at="2021-12-23T15:19:38Z" name="TC_03_Navigate" finished-at="2021-12-23T15:19:41Z" duration-ms="3365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_03_Navigate -->
+        <test-method signature="TC_04_Page_Source()[pri:0, instance:webDriver.Topic_05_Browser@7c6908d7]" started-at="2021-12-23T15:19:41Z" name="TC_04_Page_Source" finished-at="2021-12-23T15:19:43Z" duration-ms="2305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_04_Page_Source -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:webDriver.Topic_05_Browser@7c6908d7]" started-at="2021-12-23T15:19:43Z" name="afterClass" finished-at="2021-12-23T15:19:44Z" duration-ms="804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- webDriver.Topic_05_Browser -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
