@@ -1,25 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-25T07:26:30Z" name="Default suite" finished-at="2021-12-25T07:26:58Z" duration-ms="27657">
+  <suite started-at="2021-12-26T12:00:17Z" name="Default suite" finished-at="2021-12-26T12:00:39Z" duration-ms="22400">
     <groups>
     </groups>
-    <test started-at="2021-12-25T07:26:30Z" name="Default test" finished-at="2021-12-25T07:26:58Z" duration-ms="27657">
-      <class name="webDriver.Topic_05_Custom_Dropdown">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:webDriver.Topic_05_Custom_Dropdown@302552ec]" started-at="2021-12-25T07:26:30Z" name="beforeClass" finished-at="2021-12-25T07:26:33Z" duration-ms="2482" status="PASS">
+    <test started-at="2021-12-26T12:00:17Z" name="Default test" finished-at="2021-12-26T12:00:39Z" duration-ms="22400">
+      <class name="webDriver.Topic_10_Button_Radio_Checkbox">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:webDriver.Topic_10_Button_Radio_Checkbox@45c7e403]" started-at="2021-12-26T12:00:17Z" name="beforeClass" finished-at="2021-12-26T12:00:19Z" duration-ms="2613" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="TC_06_Multible_Select()[pri:0, instance:webDriver.Topic_05_Custom_Dropdown@302552ec]" started-at="2021-12-25T07:26:33Z" name="TC_06_Multible_Select" finished-at="2021-12-25T07:26:57Z" duration-ms="24307" status="PASS">
+        <test-method signature="TC_01_()[pri:0, instance:webDriver.Topic_10_Button_Radio_Checkbox@45c7e403]" started-at="2021-12-26T12:00:19Z" name="TC_01_" finished-at="2021-12-26T12:00:38Z" duration-ms="18997" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_06_Multible_Select -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:webDriver.Topic_05_Custom_Dropdown@302552ec]" started-at="2021-12-25T07:26:57Z" name="afterClass" finished-at="2021-12-25T07:26:58Z" duration-ms="853" status="PASS">
+        </test-method> <!-- TC_01_ -->
+        <test-method signature="TC_02_()[pri:0, instance:webDriver.Topic_10_Button_Radio_Checkbox@45c7e403]" started-at="2021-12-26T12:00:38Z" name="TC_02_" finished-at="2021-12-26T12:00:38Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02_ -->
+        <test-method signature="TC_03_()[pri:0, instance:webDriver.Topic_10_Button_Radio_Checkbox@45c7e403]" started-at="2021-12-26T12:00:38Z" name="TC_03_" finished-at="2021-12-26T12:00:38Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_03_ -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:webDriver.Topic_10_Button_Radio_Checkbox@45c7e403]" started-at="2021-12-26T12:00:38Z" name="afterClass" finished-at="2021-12-26T12:00:39Z" duration-ms="755" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- webDriver.Topic_05_Custom_Dropdown -->
+      </class> <!-- webDriver.Topic_10_Button_Radio_Checkbox -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
