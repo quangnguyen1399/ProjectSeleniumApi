@@ -11,7 +11,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class Topic_24_Frame_Iframe {
+public class Topic_11_Frame_Iframe {
 	WebDriver driver;
 
 

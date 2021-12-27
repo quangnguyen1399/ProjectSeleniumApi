@@ -14,7 +14,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class Topic_21_Uer_Interections {
+public class Topic_09_User_Interections {
 	WebDriver driver;
 	Actions action;
 
