@@ -15,7 +15,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class Topic_14_WebDriver_Wait_Part_2_Element_Status {
+public class Topic_14_WebDriver_Wait_Part_3_Implicit_And_Static_Wait {
 	
 	
 	WebDriver driver;

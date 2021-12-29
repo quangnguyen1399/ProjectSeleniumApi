@@ -15,7 +15,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class Topic_14_WebDriver_Wait_Part_3_Element_Status {
+public class Topic_14_WebDriver_Wait_Part_2_Find_Element {
 	
 	
 	WebDriver driver;

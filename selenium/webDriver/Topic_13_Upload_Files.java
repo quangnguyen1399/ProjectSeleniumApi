@@ -47,7 +47,7 @@ public class Topic_13_Upload_Files {
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 	}
-
+	@Test
 	public void TC_01_Sendkey_One_File() {
 		driver.get("http://blueimp.github.io/jQuery-File-Upload/");
 		
